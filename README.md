@@ -79,10 +79,10 @@ O desenvolvimento do projeto contou com as seguintes tecnologias:
 
 Power BI: Modelagem de dados e construção do dashboard interativo;
 
-📄 Referências
-
-[1] Comunicação de Acidente de Trabalho – CAT. dados.gov.br
-
 Power Query (Linguagem M): Processos de extração, transformação e carga (ETL);
 
 DAX: Criação de medidas analíticas e cálculos personalizados.
+
+📄 Referências
+
+[1] Comunicação de Acidente de Trabalho – CAT. dados.gov.br
