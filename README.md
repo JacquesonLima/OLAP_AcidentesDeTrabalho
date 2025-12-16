@@ -1,88 +1,90 @@
-📈 Estudo Analítico sobre Acidentes de Trabalho no Brasil (2018–2020)
+📈 Acidentes de Trabalho no Brasil — Análise de Dados (2018–2020)
 
-Este repositório reúne um projeto de análise exploratória e visualização de dados voltado aos Acidentes de Trabalho registrados no Brasil, considerando o intervalo entre junho de 2018 e setembro de 2020. A iniciativa concentra-se na identificação dos principais fatores causadores dos acidentes e das regiões corporais mais afetadas, oferecendo subsídios relevantes para ações preventivas e para o aprimoramento das políticas de segurança ocupacional.
+Este repositório reúne um estudo analítico baseado em dados públicos sobre acidentes de trabalho registrados no Brasil, com foco no período entre 2018 e 2020. O projeto explora padrões de ocorrência, fatores de risco e impactos sobre os trabalhadores, utilizando técnicas de análise de dados e visualização para apoiar decisões relacionadas à prevenção e segurança ocupacional.
 
-🎯 Finalidade do Estudo
+🧠 Proposta do Projeto
 
-A proposta do projeto é converter os registros brutos das Comunicações de Acidente de Trabalho (CAT) em informações analíticas e estratégicas, disponibilizadas por meio de um dashboard interativo desenvolvido no Power BI. Os principais objetivos são:
+O objetivo central é converter registros administrativos das Comunicações de Acidente de Trabalho (CAT) em informações relevantes para análise, permitindo:
 
-Determinar os agentes responsáveis pela maior incidência de acidentes de trabalho;
+Compreender quais atividades profissionais apresentam maior exposição a acidentes;
 
-Identificar as partes do corpo mais frequentemente lesionadas;
+Identificar agentes e condições que mais contribuem para a ocorrência de lesões;
 
-Avaliar a distribuição dos acidentes conforme a natureza da lesão e o tipo de ocorrência (Típico, de Trajeto ou Doença Ocupacional);
+Analisar a distribuição das lesões por tipo de acidente e região do corpo atingida;
 
-Apoiar a definição de estratégias de prevenção, treinamento e segurança no ambiente laboral.
+Gerar insumos analíticos para ações preventivas, treinamentos e políticas públicas.
 
-💾 Origem dos Dados
+🗂️ Base de Dados Utilizada
 
-Para assegurar confiabilidade e relevância analítica, o estudo utiliza dados oficiais e de acesso público:
+A análise foi construída a partir de dados oficiais, garantindo confiabilidade estatística e institucional:
 
-Base de Dados: Comunicação de Acidente de Trabalho – CAT
+Fonte: Comunicação de Acidente de Trabalho (CAT)
 
-Instituição Responsável: Instituto Nacional do Seguro Social (INSS)
+Órgão responsável: Instituto Nacional do Seguro Social (INSS)
 
-Fonte: dados.gov.br
+Disponibilização: Portal Brasileiro de Dados Abertos
 
-Link de acesso:
-https://dados.gov.br/dados/conjuntos-dados/inss-comunicacao-de-acidente-de-trabalho-cat1
+🔗 https://dados.gov.br/dados/conjuntos-dados/inss-comunicacao-de-acidente-de-trabalho-cat1
 
-🔍 Resultados Relevantes da Análise
+📊 Principais Análises Realizadas
+🔧 Agentes Relacionados aos Acidentes
 
-A exploração dos dados entre 2018 e 2020 evidenciou padrões significativos relacionados à ocorrência de acidentes de trabalho no Brasil.
+Os dados indicam que determinados agentes concentram grande parte das ocorrências, especialmente aqueles associados ao deslocamento, operação de equipamentos e interação com superfícies de trabalho.
 
-Agentes com Maior Incidência de Acidentes
+Motocicletas
 
-A identificação dos principais agentes causadores é essencial para o direcionamento de medidas de segurança. De acordo com o dashboard, destacam-se os seguintes agentes:
+Máquinas industriais
 
-Motocicleta: ~72.000 registros
+Materiais metálicos
 
-Máquinas: ~47.000 registros
+Veículos automotores
 
-Metal: ~47.000 registros
+Superfícies de circulação (chão)
 
-Veículo: ~44.000 registros
+Interpretação:
+A expressiva presença de acidentes envolvendo motocicletas reforça a relevância dos acidentes de trajeto, além de apontar riscos elevados para trabalhadores que utilizam esse meio como ferramenta de trabalho.
 
-Chão / Superfície útil: ~40.000 registros
+🧑‍🏭 Ocupações com Maior Frequência de Acidentes
 
-Análise: O elevado número de ocorrências envolvendo motocicletas aponta para a relevância dos acidentes de trajeto, especialmente em atividades profissionais que dependem desse meio de transporte.
+Determinadas categorias profissionais apresentam maior número de registros, refletindo exposição contínua a riscos físicos, mecânicos, biológicos e ergonômicos.
 
-Análise: As extremidades superiores e inferiores concentram a maior parte das lesões, reforçando a necessidade do uso correto de luvas, calçados de segurança e outros EPIs específicos.
+Técnicos de enfermagem
 
-🧑‍🏭 Ocupações com Maior Incidência de Acidentes de Trabalho
+Trabalhadores de linha de produção
 
-A análise das Comunicações de Acidente de Trabalho (CAT) também permitiu identificar as ocupações com maior volume de registros no período analisado. Esse recorte é fundamental para compreender quais atividades profissionais estão mais expostas a riscos ocupacionais e demandam maior atenção em termos de prevenção, capacitação e fiscalização.
+Motoristas de caminhão
 
-Com base nos dados consolidados no dashboard, destacam-se as seguintes ocupações com maior número de acidentes registrados:
+Serventes de obras
 
-Técnico(a) de Enfermagem: aproximadamente 65.000 ocorrências
+Profissionais de enfermagem
 
-Trabalhadores de Linha de Produção: cerca de 45.000 ocorrências
+Vendedores do varejo
 
-Motorista de Caminhão: aproximadamente 18.000 ocorrências
+Açougueiros
 
-Servente de Obras: cerca de 16.000 ocorrências
+Auxiliares administrativos
 
-Enfermeiro(a): aproximadamente 15.000 ocorrências
+Coletores de resíduos
 
-Vendedor do Varejo: cerca de 14.000 ocorrências
+Interpretação:
+Os setores de saúde, indústria, transporte e construção civil concentram grande parte das ocorrências, indicando a necessidade de políticas específicas de prevenção e fiscalização.
 
-Açougueiro: aproximadamente 13.000 ocorrências
+🛠️ Ferramentas e Recursos Técnicos
 
-Auxiliar de Escritório: cerca de 12.000 ocorrências
+O desenvolvimento das análises envolveu as seguintes tecnologias:
 
-Coletor de Lixo: aproximadamente 11.000 ocorrências
+Power BI: estruturação do modelo analítico e visualização dos dados
 
-🛠️ Ferramentas e Tecnologias
+Power Query (Linguagem M): tratamento, limpeza e padronização dos dados
 
-O desenvolvimento do projeto contou com as seguintes tecnologias:
+DAX: criação de métricas e indicadores analíticos
 
-Power BI: Modelagem de dados e construção do dashboard interativo;
+📌 Considerações Finais
 
-Power Query (Linguagem M): Processos de extração, transformação e carga (ETL);
+Os resultados reforçam a importância do uso de dados públicos como instrumento de diagnóstico dos riscos ocupacionais. A análise evidencia áreas críticas que demandam atenção prioritária, contribuindo para a construção de ambientes de trabalho mais seguros e para o fortalecimento de estratégias de prevenção de acidentes.
 
-DAX: Criação de medidas analíticas e cálculos personalizados.
+📚 Referências
 
-📄 Referências
+Comunicação de Acidente de Trabalho (CAT) — dados.gov.br
 
-[1] Comunicação de Acidente de Trabalho – CAT. dados.gov.br
+Instituto Nacional do Seguro Social (INSS)
